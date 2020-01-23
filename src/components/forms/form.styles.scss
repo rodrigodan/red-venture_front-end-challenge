@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+
+// hereee
+
+// .formulario-to-fill{
+//     background-color:#f6f6f6;
+//     border-style: none;
+//     border-radius: 5px;
+//     // width:70%;
+//     position:relative;
+//     margin-top:25%;
+//     padding-top:10%;
+// }
+
+
+
+// .form-plants{
+//     text-align:left;
+//     margin-left:30px;
+// }
+
+// input{
+// width: 80%;
+//   padding: 4px;
+//   border: 1px solid #ccc;
+//     // border-style: none;
+//   border-radius: 12px;
+//   resize: vertical;
+// }
+
+// .button-form{
+//     color: #15573F;
+//     border: 1px solid #15573F;
+//     background-color:white;
+//     padding: 8px 32px;
+//     border-radius: 25px;
+//     margin-top:10%;
+//     margin-bottom: 20%;
+//     cursor: pointer;
+// }
+
+.button-form:hover{
+    background-color: #15573F;
+    color: white;
+}
+
+.button-form{
+    color: #15573F;
+    border: 1px solid #15573F;
+    background-color:white;
+    padding: 8px 32px;
+    border-radius: 25px;
+    margin-top:10%;
+    margin-bottom: 20%;
+    cursor: pointer;
+}
+
+
+input{
+    width: 50%;
+    padding: 4px;
+    border: 1px solid #ccc;
+        // border-style: none;
+    border-radius: 12px;
+    resize: vertical;
+    }
+// new
+@media(max-width:768px){
+    .button-form{
+        width:50%;
+    }
+   
+    .form-plants{
+        min-height:70vh;
+    }
+    .envelope-image{
+        min-height:80vh;
+    }
+    .button-form{
+        margin-top:4%;
+    }
+}
+
+@media(min-width:768px){
+    .form-plants{
+        min-height:50px;
+    }
+}
+
+input.falseElement{
+    border: 1px solid rgb(248, 3, 3);
+}

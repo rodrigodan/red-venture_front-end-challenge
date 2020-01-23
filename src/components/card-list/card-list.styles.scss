@@ -1,0 +1,39 @@
+.card-list{
+    // position: relative;
+    justify-content: center;
+    display: grid;
+    // grid-template-columns: auto auto auto;
+    grid-row-gap: 0px;
+    margin: 0 auto;
+    margin-top:5%;
+}
+
+@media (min-width: 768px) {
+    .card-list{
+        grid-template-columns: 222px 222px 222px;
+        grid-column-gap: 35px;
+        grid-row-gap: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-list{
+        grid-row-gap:12px;
+    }
+}
+
+
+.bigsideline4, .bigsideline5, .bigsideline6{
+    .verticalLine{
+        margin-top:25%;
+        height:740px;
+    }
+}
+.bigsideline7, .bigsideline8, .bigsideline9{
+
+    .verticalLine{
+            margin-top:25%;
+            height:1090px;
+                
+    }
+}

@@ -1,4 +1,5 @@
 {
+  "proxy": "https://6nrr6n9l50.execute-api.us-east-1.amazonaws.com/default/front-plantTest-service",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -6,9 +7,18 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.1",
+    "bootstrap": "^4.4.1",
+    "node-sass": "^4.13.0",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "redux": "^4.0.5",
+    "redux-store": "0.0.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",

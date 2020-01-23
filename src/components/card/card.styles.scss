@@ -1,0 +1,54 @@
+.card-container{
+    background-color: rgb(255, 255, 255);
+//     height:100px;
+//     // width:80%;
+}
+
+.card-container p.plant-name{
+    color:#15573F;
+    font-weight: bold;
+    text-align: left;
+    margin-left:15px;
+    font-size:18px;
+    // margin-left:-50px;
+}
+
+.card-container p.plant-price{
+    color:#6f6d78;
+    margin-top: -15px;
+    text-align: left;
+    margin-left:15px;
+}
+
+.card-container img{
+    // width:60%;
+    text-align: center;
+    width:100%;
+}
+
+.button1 {
+
+    border: none;
+    color: white;
+    padding: 8px 64px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button1 {
+    background-color: white; 
+    color: #15573F; 
+    border: 1px solid #15573F;
+  }
+
+.button1:hover {
+    background-color: #15573F;
+    color: white;
+  }

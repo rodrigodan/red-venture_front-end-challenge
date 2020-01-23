@@ -1,0 +1,38 @@
+.left-logo{
+    position:absolute;
+    top:20%;
+    left:-15px;
+}
+
+.verticalLine{
+    width: 1px;
+      background-color: silver;
+      height: 100%;
+      float: left;
+    //   border: 2px ridge silver ;
+      border-radius: 2px;
+      margin-top:80px;
+      margin-left:145px;
+      height:25em;
+    //   height:25vh;
+}
+
+.left-logo{
+    img.left-logo1{
+        transform: rotate(270deg);
+        width:60%;
+    }
+}
+.left-logo{
+    img.left-logo2{
+        margin-top:25%;
+        height:390px;
+    }
+}
+
+@media(max-width:1000px){
+    .left-logo{
+        visibility: hidden;
+    }
+}
+

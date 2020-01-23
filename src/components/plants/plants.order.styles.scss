@@ -1,0 +1,188 @@
+// .plant-items .row{
+//     margin-top:100px;
+// }
+
+
+
+
+
+
+
+
+
+// starts here
+
+
+
+// .plant-items{
+//     background-color:white;
+//     background-size: cover;
+//   height: 100%;
+//   overflow: hidden;
+//     // height: auto;
+//     // width: 100%;
+ 
+
+// }
+
+// .plant-items h1{
+//     color:#06291d !important;
+//     font-weight:bold;
+// }
+
+// .plant-items h1.name2{
+//     margin-left:-140px;
+// }
+// .plant-items h1.namestop{
+//     margin-top:20%;
+//     margin-left:-60px;
+// }
+
+// h1.namestop2{
+//     text-align: left;
+//     margin-left:30px;
+//     // margin-top:30%;
+// }
+
+// .plant-items p.item-price{
+//     margin-left:-190px;
+//     // color:#6e6d71;
+//     color:#d6d6d6;
+//     font-weight: bolder;
+//     font-size:25px;
+
+// }
+// .plant-items p.details-name{
+//     color:#6e6d71;
+// }
+
+// .detail-sun{
+//     margin-left:-30px;
+// }
+// .detail-water{
+//     margin-left:-40px;
+// }
+
+// .cardPlantDetail{
+//     background-color:white;
+// }
+
+// .aware{
+//     font-weight:bolder;
+// }
+
+
+// new:
+
+
+.plant-items{
+    background-color:white;
+    background-size: cover;
+    height: 100%;
+    min-height:100vh;
+    overflow: hidden;
+}
+.plant-items h1{
+    color:#06291d !important;
+    font-weight:bolder;
+}
+
+.plant-items{
+    display:grid;
+    // grid-template-columns: 1fr 1fr;
+}
+
+.start-navigationbar{
+    background-color: white;
+}
+.start-navigationbar .logo{
+    padding-bottom: 15%;
+}
+
+.grid2{
+    background-color:#f6f6f6;
+}
+
+@media(max-width:768px){
+    .grid2{
+        width:100%;
+    }
+    .plant-items{
+        justify-items: center;
+        grid-gap:14%;
+
+    }
+    .grid1 h1{
+        text-align: left;
+        // font-size:65px;
+    }
+    .grid1 p{
+        text-align: left;
+    }
+
+    .start-navigationbar .logo{
+        padding-bottom: 15%;
+    }
+
+
+    
+
+
+    .grid2 h1{
+        text-align: center;
+        margin-right:20%;
+    }
+    .plant-items{
+       
+
+        // h1.name-stop2{
+        //     text-align: left;
+        //     position:relative;
+        //     left:99px;
+        // }
+        p.formInfo{
+            // text-align: center;
+            text-align: justify;
+            margin-left:21%;
+            margin-right:30%;
+            // margin-right:50%;
+        }
+        h1.namestop{
+            font-size:50px;
+        }
+    }
+}
+@media(min-width:768px){
+    .plant-items{
+        grid-template-columns: 1fr 1fr; 
+        justify-items: center;
+    }
+    .grid2{
+        height:400px;
+        width:55%;
+        margin-top:7%;
+    }
+    .start-navigationbar .logo{
+        padding-bottom: 0%;
+    }
+
+}
+
+p.item-price{
+    color:#a3a2a2;
+    font-size:20px;
+}
+
+.aware{
+    font-weight:bolder;
+}
+
+.plant-items p.details-name{
+    color:#5a595c;
+}
+
+.grid2{
+    p.formInfo{
+        color:#6e6e6e;
+    }
+}

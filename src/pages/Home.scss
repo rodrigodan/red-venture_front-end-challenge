@@ -1,0 +1,245 @@
+
+// .imageHeader img{
+//     // max-width:92.5%;
+//     max-width:92.5%;
+//     position:fixed;
+//     bottom:0em;
+//     top:0.1em;
+// }
+
+// .homepage{
+//     // position:fixed;
+//     bottom:10%px;
+//     margin-top:10%;
+// }
+
+.homepage{
+    min-height: 100%;
+}
+
+.imageHeader img{
+    // width:85.3%;
+    // width:92.5%;
+    width:100%;
+    // bottom:0px;
+}
+
+.imageHeader{
+    // position:absolute;
+    bottom:0;
+    // left:30%;
+    // right:0;
+    // left: 0;
+    width:99%;
+
+
+    .image-desktop {
+        width: 100%;
+        height: 100%;
+        visibility: visible;
+    }
+    
+    .image-mobile {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+.quizz{
+    // margin-top:50%;
+    font-size: 58px;
+    font-weight:bolder;
+    color:#06291d;
+    // margin-left: 10px;
+}
+
+// .imageHeader{
+//     position: relative;
+//     height: 800px;
+//     min-height: 500px;
+//     width: 100%;
+//     background: #161415 url("../assets/assets/illustrations/illustration-home.png") no-repeat top center;
+//     background-size: cover !important;
+//      -webkit-background-size: cover !important;
+//     text-align: center;
+//     overflow: hidden;
+// }
+
+// .imageHeader{
+//     background-image: url("../assets/assets/illustrations/illustration-home.png");
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-position:50% 50%;
+//     overflow:hidden;
+//     width:100%;
+//     height:auto;
+// }
+
+// .homepage{
+//     background-image: url("../assets/assets/illustrations/illustration-home.png");
+//     background-repeat: no-repeat;
+//     position: absolute;
+//     bottom:0;
+//     right:0;
+//     background-size: contain;
+//     width:100%;
+//     height:100%;
+//     background-position:right bottom;
+// }
+
+
+
+// .arrow{
+//     // font-size:30px;
+// }
+
+.aplication{
+    display: grid;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+
+.imageHeader{
+    display: grid;
+
+    .image-desktop {
+        width: 30em;
+        height: auto;
+        visibility: visible;
+        align-self: center;
+    }
+    
+    .image-mobile {
+        visibility: hidden;
+        display: none;
+    }
+
+}
+
+
+}
+
+
+
+@media (min-width: 768px) {
+    .aplication{
+        grid-template-columns: 1fr 2fr;
+    }
+    .quizz{
+        margin-top:50%;
+        font-size: 58px;
+        font-weight:bolder;
+        color:#06291d;
+        margin-left: 10px;
+    }
+    .logo{
+        margin-top:2%;
+    }
+
+
+
+
+    img#image-mobile{
+        width:10px !important;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .imageHeader {
+
+        .image-desktop{
+            display: none !important;
+            visibility: hidden !important;
+        }
+
+        .image-mobile{
+            visibility: visible;
+            display: inline;
+            margin-top: 5%;
+        }
+
+    }
+    
+
+    
+
+    .aplication{
+        grid-template-columns: 2fr;
+    }
+    .quizz{
+        font-weight:bolder;
+        color:#06291d;
+        font-size: 48px;
+        text-align: center;
+        margin-top:10%;
+    }
+    .logo,button.branco{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .logo svg{
+        width:100%;
+    }
+    // button.branco{
+
+    // }
+
+
+
+
+
+
+    
+
+    
+    .imageHeader{
+        background-color:#f6f6f6;
+        // min-height:100vh;
+        margin-bottom: 0px;
+    }
+    
+}
+
+
+
+.btn-branco{
+    
+    background-color: #15573F;
+    border-radius: 24px;
+    color:white;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:12px;
+    margin-top:20px;
+    Text-Decoration: None;
+}
+
+.btn-branco:hover{
+    color:white;
+}
+
+html, body {
+    height: 100%;
+}
+
+.imageHeader{
+    position:relative;
+}
+
+
+
+
+.homepage{
+    background-color:#f6f6f6 !important;
+    min-height: 100vh;
+    height: 100%;
+}
+
