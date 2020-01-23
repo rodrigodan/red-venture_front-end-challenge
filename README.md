@@ -17,7 +17,7 @@ npm v3.10.10
 ## How to use
 1. Clone/Download the repo.
   ```sh
-git clone https://github.com/rodrigodan/red-venture-front-end-challenge.git
+git clone https://github.com/rodrigodan/red-venture_front-end-challenge.git
 ```
 2. Run  ``` npm install ``` or ``` yarn install ``` to install all the dependencies
 3. Run ```npm start``` or ```yarn start``` to spin the up the local dev server port 3000.
