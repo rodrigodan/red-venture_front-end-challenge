@@ -39,8 +39,9 @@ class Form extends React.Component {
         let nameError = "Type your full name correctly";
         let emailError = "insert a valid email";
         // regular
-        
+        //eslint-disable-next-line
         let regexEmail = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;;
+        //eslint-disable-next-line
         let regexName = /(\w.+\s).+/i;
         let noValidated = true;
         if(!regexName.test(this.state.name)){
@@ -84,7 +85,7 @@ class Form extends React.Component {
                 this.props.codEnd();
             }
         })
-        
+        return valid;
 
     }
 
