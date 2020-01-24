@@ -29,5 +29,5 @@ This page follows the concept of single page application, where the page is divi
 Those components are responsible for generating every element that compose the page.
 
 
-## Initial Page:
+## Initial Page image:
 ![Preview](image-to-git/initial-page.png)

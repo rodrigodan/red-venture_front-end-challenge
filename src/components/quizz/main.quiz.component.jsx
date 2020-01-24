@@ -87,7 +87,6 @@ class MainQuiz extends React.Component {
       }
     }
 
-    //check answer
     // this method is called everytime that an answer is sent by user on quiz:
     checkAnswer = (answer, categoryItemQuiz,currentQuestion) => {
       
